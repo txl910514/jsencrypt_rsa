@@ -1,0 +1,42 @@
+{
+  "name": "exports_image_pdf",
+  "version": "1.0.0",
+  "description": "exports_image_pdf",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --config webpack.config.js --public  --host 0.0.0.0 --port 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txl910514/exports_image_pdf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/txl910514/exports_image_pdf/issues"
+  },
+  "homepage": "https://github.com/txl910514/exports_image_pdf#readme",
+  "dependencies": {
+    "echarts": "^3.6.2",
+    "html2canvas": "^0.5.0-beta4",
+    "jquery": "^3.2.1",
+    "jsencrypt": "^2.3.1",
+    "jspdf": "^1.3.3"
+  },
+  "devDependencies": {
+    "art-template": "^4.12.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-loader": "^0.5.0",
+    "html-webpack-plugin": "^2.30.1",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
